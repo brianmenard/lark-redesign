@@ -8,9 +8,9 @@ body{
 
 .navbar{
     height: 80px;
-    border-bottom: thick black solid;
     background-color: transparent;
     position:absolute;
+    width: 98vw;
 }
 
     #logotype{
@@ -95,19 +95,22 @@ body{
     #feature_image1{
         height: 220px;
         margin: 15px;
-        background-color: #EBEBEB;
+        background-image: url('img/pizza.jpg');
+        background-size: cover;
     }
     
     #feature_image2{
         height: 220px;
         margin: 15px;
-        background-color: #C7C7C7;
+        background-image: url('img/cocktail.jpeg');
+        background-size: cover;
     }
     
     #feature_image3{
         height: 220px;
         margin: 15px;
-        background-color: #7F7F7F;
+        background-image: url('img/events.jpg');
+        background-size: cover;
     }
     
     .feature_content{
