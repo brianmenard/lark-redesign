@@ -187,3 +187,29 @@ body{
     .main_content .button{
         margin-top: 100px;
     }
+    
+     .footer{
+        width: 92vw;
+        border-top: thick solid black;
+        height: 100px;
+        margin-left: 3vw; 
+        padding-top:25px;
+        font-size: 90%;
+    }
+    
+    .footer_left{
+        float: left;
+        
+    }
+    
+    .footer_middle{
+        float: left;
+        padding-left: 15px; padding-right: 15px;
+        
+    }
+    
+    .footer_right{
+        float: right;
+    }
+    
+/** END DIV STYLING **/
