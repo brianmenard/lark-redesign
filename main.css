@@ -136,3 +136,54 @@ body{
         font-weight: normal;
         line-height: 25px;
     }
+    
+.main_content_container{
+    padding-top: 375px;
+    display:flex;
+    justify-content:space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+
+    .photo_container{
+        border-style: inset;
+        margin: 25px;
+    }
+    
+    .main_content_photo{
+        background-image: url('/img/FireStill.jpg');
+        background-size: cover;
+        height: 500px;
+        width: 41vw;
+        margin:15px;
+    }
+    
+    .main_content{
+        margin: 25px;
+        width: 43.2vw;
+        vertical-align: top;
+        text-align: left;
+        position: relative;
+    }
+    
+    .main_content h1{
+        font-size: 300%;
+        margin-top: 0px; margin-bottom: 0px;
+    }
+    
+    .main_content h2{
+        font-size: 200%;
+        margin-top: 10px; 
+    }
+    
+    .main_content p{
+        line-height: 30px;
+        font-size: 115%;
+        font-weight: bold;
+        width: 30vw;
+        text-align:justify;
+    }
+    
+    .main_content .button{
+        margin-top: 100px;
+    }
