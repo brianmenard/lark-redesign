@@ -70,3 +70,63 @@ body{
         font-size: 115%;
         font-weight: bold;
     }
+    
+.features_container{
+    position: absolute;
+    width: 100%;
+    top: 600px;
+    display:flex;
+    justify-content: space-around;
+    flex-wrap:wrap;
+}
+
+    .feature{
+        width: 30%;
+        margin: 1%;
+        background-color: white;
+        box-shadow: 0px 0px 10px #888888;
+        text-align: left;
+        vertical-align:top;
+    }
+    
+    #feature_image1{
+        height: 220px;
+        margin: 15px;
+        background-color: #EBEBEB;
+    }
+    
+    #feature_image2{
+        height: 220px;
+        margin: 15px;
+        background-color: #C7C7C7;
+    }
+    
+    #feature_image3{
+        height: 220px;
+        margin: 15px;
+        background-color: #7F7F7F;
+    }
+    
+    .feature_content{
+        margin: 15px;
+        margin-bottom: 40px;
+        margin-right: 25px;
+        font-family: 'Arial', sans-serif;
+        text-align: justify;
+    }
+    
+    .feature_content h1{
+        font-weight: normal;
+        margin-bottom: 5px;
+    }
+    
+    .feature_content h2{
+        font-weight: normal;
+        margin-top: 0px;
+        font-size: 100%;
+    }
+    
+    .feature_content p{
+        font-weight: normal;
+        line-height: 25px;
+    }
