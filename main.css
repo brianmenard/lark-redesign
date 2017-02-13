@@ -219,8 +219,9 @@ body{
 .menu_container{
     display: flex;
     justify-content: space-around;
-    border-top: thin solid gray;
+    border: thin solid gray;
     margin-left: 3vw; margin-right: 3vw;
+    background-color: #f6f6f6;
 }
     
 .menu_col{
