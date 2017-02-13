@@ -247,3 +247,8 @@ body{
 }
     
 /** END DIV STYLING **/
+
+.button a{
+    color: white;
+    text-decoration: none;
+}
