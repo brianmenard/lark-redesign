@@ -41,7 +41,7 @@ body{
 }
 
 .hero_image.menu_header{
-    height:650px;
+    height:450px;
     background-image: url('img/plated_dinner.jpg');
     background-size: cover;
     border-bottom: thick solid 	#A9AAAC;
@@ -215,5 +215,18 @@ body{
     .footer_right{
         float: right;
     }
+    
+.menu_container{
+    display: flex;
+    justify-content: space-around;
+}
+    
+.menu_col{
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    width: 30vw;
+    padding: 15px;
+}
     
 /** END DIV STYLING **/
