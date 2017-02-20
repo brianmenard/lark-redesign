@@ -217,10 +217,11 @@ body{
     }
     
 .menu_container{
+    width: 92.3vw;;
     display: flex;
     justify-content: space-around;
     border: thin solid gray;
-    margin-left: 3vw; margin-right: 3vw;
+    margin-left: 3vw; margin-right: 50px;
     background-color: #f6f6f6;
 }
     
