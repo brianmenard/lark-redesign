@@ -252,6 +252,16 @@ body{
 .menu_header_text{
     text-align: center;
 }
+
+.feature_content h1 a{
+    text-decoration: none;
+    color: black;
+}
+
+.feature_content h1 a:hover{
+    text-decoration: underline;
+    color: black;
+}
     
 /** END DIV STYLING **/
 
