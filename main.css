@@ -275,15 +275,15 @@ body{
 }
 
 .after_hours_details_container{
-    background-color: blue;
     height: 400px;
     width: 45%;
+    padding: 50px;
+    padding-top:100px;
 }
 
 .poster_container{
-    background-color: yellow;
-    height: 400px;
     width:45%;
+    padding: 50px;
 }
     
 /** END DIV STYLING **/
@@ -291,4 +291,13 @@ body{
 .button a{
     color: white;
     text-decoration: none;
+}
+
+.after_hours_details_container h2{
+    font-size: 110%;
+}
+
+.after_hours_details_container h3{
+    font-size: 75%;
+    color: gray;
 }
