@@ -52,6 +52,12 @@ body{
     background-size: cover;
     border-bottom: thick solid 	#A9AAAC;
 }
+.hero_image.after_hours_header{
+    height:450px;
+    background-image: url('img/after_hours.jpeg');
+    background-size: cover;
+    border-bottom: thick solid 	#A9AAAC;
+}
 
     #header_text{
         padding-top: 175px;
@@ -261,6 +267,23 @@ body{
 .feature_content h1 a:hover{
     text-decoration: underline;
     color: black;
+}
+    
+.after_hours_container{
+    display:flex;
+    justify-content: space-around;
+}
+
+.after_hours_details_container{
+    background-color: blue;
+    height: 400px;
+    width: 45%;
+}
+
+.poster_container{
+    background-color: yellow;
+    height: 400px;
+    width:45%;
 }
     
 /** END DIV STYLING **/
