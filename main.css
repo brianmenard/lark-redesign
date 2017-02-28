@@ -46,6 +46,12 @@ body{
     background-size: cover;
     border-bottom: thick solid 	#A9AAAC;
 }
+.hero_image.drink_header{
+    height:450px;
+    background-image: url('img/cocktail.jpeg');
+    background-size: cover;
+    border-bottom: thick solid 	#A9AAAC;
+}
 
     #header_text{
         padding-top: 175px;
